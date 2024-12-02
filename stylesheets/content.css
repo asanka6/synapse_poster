@@ -1,0 +1,110 @@
+.running_line_logos1 {
+  background-color: #fff429;
+  height: 70px;
+}
+
+.first_block {
+  display: grid;
+  height: 940px;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+}
+
+.nap {
+  background-color: black;
+  height: 60%;
+}
+
+.face {
+  background-color: #737373;
+  height: 40%;
+  width: 40%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.blur_block {
+  display: flex;
+  flex-direction: column;
+}
+
+.script {
+  background-color: #eeeeee;
+}
+
+.butterfly_effect {
+  background-color: #737373;
+}
+
+.blur1 {
+  background-color: black;
+  flex: 1;
+}
+
+.blur2 {
+  background-color: #eeeeee;
+  flex: 1;
+}
+
+.blur3 {
+  background-color: #fff429;
+  flex: 1;
+}
+
+.blur4 {
+  background-color: black;
+  flex: 1;
+}
+
+.running_line_about {
+  background-color: #fff429;
+  height: 70px;
+}
+
+.running_lines-digital_reality {
+  background-color: black;
+  height: 740px;
+}
+
+.running_line_logos2 {
+  background-color: #fff429;
+  height: 70px;
+}
+
+.second_row {
+  display: flex;
+  flex-direction: row;
+  height: 1680px;
+}
+
+.code {
+  background-color: #737373;
+  flex: 1;
+}
+
+.poster {
+  background-color: black;
+  width: 65%;
+}
+
+.third_row {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+}
+
+.emotions {
+  background-color: #eeeeee;
+  flex: 1;
+}
+
+.face2 {
+  background-color: #737373;
+  flex: 1;
+}
+
+.running_line_logos3 {
+  background-color: #fff429;
+  height: 70px;
+}
