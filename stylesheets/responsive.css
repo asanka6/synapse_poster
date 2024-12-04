@@ -4,103 +4,25 @@
 
 /* 1680px | MacBook Pro 15’ */
 @media only screen and (max-device-width: 1680px) and (min-device-width: 1440px) {
-  .running_line_about,
-  .running_line_logos1,
-  .running_line_logos2,
-  .running_line_logos3 {
-    height: 60px;
-  }
-  .first_block {
-    height: 820px;
-  }
-  .running_lines-digital_reality {
-    height: 660px;
-  }
-  .second_row {
-    height: 1470px;
-  }
-  .third_row {
-    height: 350px;
-  }
 }
 
 /* 1440px | MacBook Pro 15’ (old) */
 @media only screen and (max-device-width: 1440px) and (min-device-width: 1366px) {
-  .running_line_about,
-  .running_line_logos1,
-  .running_line_logos2,
-  .running_line_logos3 {
-    height: 50px;
-  }
-  .first_block {
-    height: 700px;
-  }
-  .running_lines-digital_reality {
-    height: 560px;
-  }
-  .second_row {
-    height: 1260px;
-  }
-  .third_row {
-    height: 300px;
-  }
 }
 
 /* 1366px | MacBook Air 12’ */
 @media only screen and (max-device-width: 1366px) and (min-device-width: 1280px) {
-  .running_line_about,
-  .running_line_logos1,
-  .running_line_logos2,
-  .running_line_logos3 {
-    height: 45px;
-  }
-  .first_block {
-    height: 660px;
-  }
-  .running_lines-digital_reality {
-    height: 530px;
-  }
-  .second_row {
-    height: 1200px;
-  }
-  .third_row {
-    height: 280px;
-  }
 }
 
 /* 1280px | MacBook Pro 13’ */
 @media only screen and (max-device-width: 1280px) and (min-device-width: 1024px) {
-  .running_line_about,
-  .running_line_logos1,
-  .running_line_logos2,
-  .running_line_logos3 {
-    height: 40px;
-  }
-  .first_block {
-    height: 600px;
-  }
-  .running_lines-digital_reality {
-    height: 480px;
-  }
-  .second_row {
-    height: 1120px;
-  }
-  .third_row {
-    height: 260px;
-  }
 }
 
 /* 1024px | iPad Mini (landscape) */
 @media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
-  .running_line_about,
-  .running_line_logos1,
-  .running_line_logos2,
-  .running_line_logos3 {
-    height: 40px;
-  }
   .first_block {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 640px 120px;
+    grid-template-rows: 62.5vw 11.7vw;
     height: 100%;
   }
   .blur_block {
@@ -109,16 +31,7 @@
   }
   .face {
     width: 50%;
-    bottom: 120px;
-  }
-  .running_lines-digital_reality {
-    height: 380px;
-  }
-  .second_row {
-    height: 880px;
-  }
-  .third_row {
-    height: 210px;
+    bottom: 11.7vw;
   }
 }
 
@@ -132,7 +45,7 @@
   }
   .first_block {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 480px 90px;
+    grid-template-rows: 62.5vw 11.7vw;
     height: 100%;
   }
   .blur_block {
@@ -141,16 +54,7 @@
   }
   .face {
     width: 50%;
-    bottom: 90px;
-  }
-  .running_lines-digital_reality {
-    height: 280px;
-  }
-  .second_row {
-    height: 640px;
-  }
-  .third_row {
-    height: 160px;
+    bottom: 11.7vw;
   }
 }
 
@@ -165,7 +69,7 @@
   .first_block {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    height: 800px;
+    height: 186vw;
   }
   .blur_block {
     flex-direction: row;
@@ -173,29 +77,27 @@
   .face {
     width: 75%;
     height: 20%;
-    bottom: 400px;
+    bottom: 93vw;
   }
   .blur_block {
     display: flex;
     flex-direction: column;
     grid-area: auto;
   }
-  .running_lines-digital_reality {
-    height: 280px;
-  }
   .second_row {
     flex-direction: column-reverse;
-    height: 720px;
+    height: 167.5vw;
   }
   .code {
-    rotate: 90;
+    transform: rotate(180deg);
+    height: 41.9vw;
   }
   .poster {
-    height: 540px;
+    height: 125.6vw;
     width: 100%;
   }
   .third_row {
-    height: 360px;
+    height: 83.7vw;
     flex-direction: column;
   }
 }
@@ -211,7 +113,7 @@
   .first_block {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    height: 560px;
+    height: 175vw;
   }
   .blur_block {
     flex-direction: row;
@@ -219,7 +121,7 @@
   .face {
     width: 75%;
     height: 20%;
-    bottom: 280px;
+    bottom: 87.5vw;
   }
   .blur_block {
     display: flex;
@@ -227,21 +129,22 @@
     grid-area: auto;
   }
   .running_lines-digital_reality {
-    height: 200px;
+    height: 62.5vw;
   }
   .second_row {
     flex-direction: column-reverse;
-    height: 520px;
+    height: 162.5vw;
   }
   .code {
-    rotate: 90;
+    transform: rotate(180deg);
+    height: 56.3vw;
   }
   .poster {
-    height: 400px;
+    height: 125vw;
     width: 100%;
   }
   .third_row {
-    height: 240px;
+    height: 75vw;
     flex-direction: column;
   }
 }

@@ -1,18 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: #141314;
+}
 .running_line_logos1 {
   background-color: #fff429;
-  height: 70px;
+  height: 3.6vw;
 }
 
 .first_block {
   display: grid;
-  height: 940px;
+  height: 50vw;
   grid-template-columns: repeat(4, 1fr);
   position: relative;
 }
 
 .nap {
   background-color: black;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../images/MOSHED-2024-12-3-0-38-40.gif");
+  background-position: center center;
+  background-size: cover; */
   height: 60%;
+}
+
+/* #nap_text {
+  width: 95%;
+  padding: 20px 3%;
+  mix-blend-mode: luminosity;
+} */
+
+h3 {
+  color: #eeeeee;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 56px;
 }
 
 .face {
@@ -59,23 +83,23 @@
 
 .running_line_about {
   background-color: #fff429;
-  height: 70px;
+  height: 3.6vw;
 }
 
 .running_lines-digital_reality {
   background-color: black;
-  height: 740px;
+  height: 38.5vw;
 }
 
 .running_line_logos2 {
   background-color: #fff429;
-  height: 70px;
+  height: 3.6vw;
 }
 
 .second_row {
   display: flex;
   flex-direction: row;
-  height: 1680px;
+  height: 87vw;
 }
 
 .code {
@@ -91,7 +115,7 @@
 .third_row {
   display: flex;
   flex-direction: row;
-  height: 400px;
+  height: 21vw;
 }
 
 .emotions {
@@ -106,5 +130,5 @@
 
 .running_line_logos3 {
   background-color: #fff429;
-  height: 70px;
+  height: 3.6vw;
 }
