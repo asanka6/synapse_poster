@@ -210,16 +210,19 @@
     opacity: 1;
   }
   #poster_text1 {
-    padding-left: 3%;
+    padding-left: 2.1%;
   }
   #poster_text2 {
-    right: 19%;
-    top: 19.3%;
+    right: 29%;
+    top: 29.7%;
   }
   #poster_text3 {
     position: absolute;
-    right: 0.8%;
-    top: 29%;
+    right: 3.6%;
+    top: 44.5%;
+  }
+  .poster p {
+    font-size: 1vw;
   }
   h1 {
     font-size: 3vw;
@@ -243,6 +246,9 @@
   }
   .background-numbers {
     padding: 0 1vw;
+  }
+  .poster h1 {
+    font-size: 24vw;
   }
 }
 
@@ -321,11 +327,32 @@
   #butterfly {
     top: 15%;
   }
+  #poster_text1 {
+    padding-left: 2.1%;
+  }
+  #poster_text2 {
+    right: 29%;
+    top: 28.9%;
+  }
+  #poster_text3 {
+    position: absolute;
+    right: 3.6%;
+    top: 43.5%;
+  }
+  .poster p {
+    font-size: 1vw;
+  }
+  h1 {
+    font-size: 3vw;
+  }
   h6 {
     font-size: 4.1vw;
     margin-left: -1.5vw;
   }
   .background-numbers {
     padding: 0 1vw;
+  }
+  .poster h1 {
+    font-size: 24vw;
   }
 }
