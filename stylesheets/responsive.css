@@ -72,6 +72,10 @@
   #poster_text3 {
     right: 2.5%;
   }
+  h6 {
+    font-size: 3vw;
+    margin-left: -1.2vw;
+  }
 }
 
 /* 768px | iPad Mini (portrait) */
@@ -127,6 +131,10 @@
   }
   h3 {
     -webkit-text-stroke: 1px #ffffff;
+  }
+  h6 {
+    font-size: 3vw;
+    margin-left: -1.2vw;
   }
 }
 
@@ -229,6 +237,13 @@
     -webkit-text-stroke: 1px #ffffff;
     font-size: 6vw;
   }
+  h6 {
+    font-size: 4.1vw;
+    margin-left: -1.5vw;
+  }
+  .background-numbers {
+    padding: 0 1vw;
+  }
 }
 
 /* 320px | iPhone SE */
@@ -302,5 +317,15 @@
   #letters_italic_vertical {
     top: -34%;
     opacity: 1;
+  }
+  #butterfly {
+    top: 15%;
+  }
+  h6 {
+    font-size: 4.1vw;
+    margin-left: -1.5vw;
+  }
+  .background-numbers {
+    padding: 0 1vw;
   }
 }

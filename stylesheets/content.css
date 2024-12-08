@@ -144,7 +144,7 @@ h2 {
 h5 {
   color: #eee;
   text-align: center;
-  font-family: "SF Pro";
+  font-family: "SF Pro", sans-serif;
   font-size: 0.73vw;
   font-style: normal;
   font-weight: 400;
@@ -450,7 +450,7 @@ h4 {
   text-align: center;
   writing-mode: vertical-rl;
   text-orientation: upright;
-  font-family: "SF Pro";
+  font-family: "SF Pro", sans-serif;
   font-weight: 700;
   letter-spacing: -0.5vw;
   margin-left: 0;
@@ -581,7 +581,7 @@ h4 {
 
 .poster p {
   color: #eeeeee;
-  font-family: "SF Pro";
+  font-family: "SF Pro", sans-serif;
   font-size: 0.7vw;
   font-style: italic;
   font-weight: 400;
