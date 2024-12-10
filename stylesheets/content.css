@@ -235,21 +235,17 @@ h1 {
   z-index: 2;
   position: absolute;
   top: 20%;
-  height: 512px;
-  width: 480px;
+  left: 0;
+  height: 60%;
+  width: 100%;
 }
 
 .butterfly {
-  height: 512px;
-  width: 480px;
+  height: 27vw;
+  width: 27vw;
   background-image: url("../images/butterfly-sprite.webp");
+  background-size: 106.25vw 26.67vw;
 }
-/* #butterfly {
-  z-index: 2;
-  position: absolute;
-  top: 20%;
-  width: 100%;
-} */
 
 h6 {
   color: #eee;

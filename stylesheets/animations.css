@@ -307,16 +307,16 @@
 
 @keyframes butterfly-wings {
   0% {
-    background-position: 0px top;
+    background-position: 0 0;
   }
   25% {
-    background-position: 520px top;
+    background-position: 27.08vw 0;
   }
   50% {
-    background-position: 1040px top;
+    background-position: 54.17vw 0;
   }
   75% {
-    background-position: 1560px top;
+    background-position: 81.25vw 0;
   }
 }
 

@@ -66,15 +66,42 @@
   .nap {
     height: 52.5%;
   }
-  #butterfly {
-    top: 18%;
-  }
   #poster_text3 {
     right: 2.5%;
   }
   h6 {
     font-size: 3vw;
     margin-left: -1.2vw;
+  }
+  .path {
+    top: 30%;
+    left: 15%;
+  }
+  @keyframes nap-jump {
+    0% {
+      width: 95%;
+      padding: 4% 3%;
+    }
+    30% {
+      padding: 0% 3%;
+      padding-top: 58%;
+    }
+    45% {
+      padding: 0% 3%;
+      padding-top: 58%;
+    }
+    60% {
+      padding: 0% 3%;
+      padding-top: 60%;
+    }
+    80% {
+      width: 95%;
+      padding: 4% 3%;
+    }
+    85% {
+      width: 95%;
+      padding: 4% 3%;
+    }
   }
 }
 
@@ -122,9 +149,6 @@
   }
   .nap {
     height: 52.5%;
-  }
-  #butterfly {
-    top: 18%;
   }
   #poster_text3 {
     right: 2.1%;
@@ -203,9 +227,6 @@
   #text_rectangle {
     padding: 0.7vw 1.1vw;
   }
-  #butterfly {
-    top: 17%;
-  }
   #letters_italic {
     opacity: 0;
   }
@@ -255,6 +276,51 @@
   }
   .about-slide {
     padding-top: 1.4vw;
+  }
+  .butterfly {
+    height: 53.64vw;
+    width: 50.23vw;
+    background-size: 213.64vw 53.64vw;
+  }
+  @keyframes butterfly-wings {
+    0% {
+      background-position: 0 0;
+    }
+    25% {
+      background-position: 54.55vw 0;
+    }
+    50% {
+      background-position: 109.09vw 0;
+    }
+    75% {
+      background-position: 163.64vw 0;
+    }
+  }
+  @keyframes nap-jump {
+    0% {
+      width: 95%;
+      padding: 4% 3%;
+    }
+    30% {
+      padding: 0% 3%;
+      padding-top: 65%;
+    }
+    45% {
+      padding: 0% 3%;
+      padding-top: 65%;
+    }
+    60% {
+      padding: 0% 3%;
+      padding-top: 70%;
+    }
+    80% {
+      width: 95%;
+      padding: 4% 3%;
+    }
+    85% {
+      width: 95%;
+      padding: 4% 3%;
+    }
   }
 }
 
@@ -330,9 +396,6 @@
     top: -34%;
     opacity: 1;
   }
-  #butterfly {
-    top: 15%;
-  }
   #poster_text1 {
     padding-left: 2.1%;
   }
@@ -374,5 +437,31 @@
 
   .digital-reality-slide3 img {
     height: 27vw;
+  }
+  @keyframes nap-jump {
+    0% {
+      width: 95%;
+      padding: 4% 3%;
+    }
+    30% {
+      padding: 0% 3%;
+      padding-top: 65%;
+    }
+    45% {
+      padding: 0% 3%;
+      padding-top: 65%;
+    }
+    60% {
+      padding: 0% 3%;
+      padding-top: 70%;
+    }
+    80% {
+      width: 95%;
+      padding: 4% 3%;
+    }
+    85% {
+      width: 95%;
+      padding: 4% 3%;
+    }
   }
 }
