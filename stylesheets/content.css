@@ -3,16 +3,20 @@ body {
   text-transform: uppercase;
   background: #141314;
 }
-.running_line_logos {
-  display: flex;
-  align-items: center;
+.running-line-logos {
+  width: 100%;
   background-color: #fff429;
   height: 3.6vw;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
 }
 
-.logo_line {
-  margin-top: 0.2vw;
+.logos-slide img {
+  margin-top: 0.65vw;
   height: 2.7vw;
+  margin-right: 16px;
+  transform-origin: left;
 }
 
 .first_block {
@@ -38,12 +42,14 @@ body {
   width: 95%;
   padding: 4% 3%;
   mix-blend-mode: luminosity;
+  transform-origin: top;
 }
 
 #leak1 {
   position: absolute;
   height: 100%;
   mix-blend-mode: screen;
+  transform-origin: left;
 }
 
 h3 {
@@ -52,6 +58,7 @@ h3 {
   font-weight: 500;
   font-style: italic;
   font-size: 3.5vw;
+  transform-origin: bottom;
 }
 
 .face {
@@ -121,6 +128,7 @@ h2 {
   mix-blend-mode: screen;
   right: 0;
   z-index: 1;
+  transform-origin: top;
 }
 
 #letter-Y {
@@ -223,12 +231,25 @@ h1 {
   mix-blend-mode: color-burn;
 }
 
-#butterfly {
+.path {
+  z-index: 2;
+  position: absolute;
+  top: 20%;
+  height: 512px;
+  width: 480px;
+}
+
+.butterfly {
+  height: 512px;
+  width: 480px;
+  background-image: url("../images/butterfly-sprite.webp");
+}
+/* #butterfly {
   z-index: 2;
   position: absolute;
   top: 20%;
   width: 100%;
-}
+} */
 
 h6 {
   color: #eee;
@@ -286,9 +307,11 @@ h6 {
   background-size: cover;
   flex: 1;
   position: relative;
+  overflow: hidden;
 }
 
 #stripe_wrap {
+  z-index: 1;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -302,6 +325,7 @@ h6 {
 }
 
 #sleep_glitch {
+  z-index: 2;
   position: absolute;
   width: 100%;
   top: 22%;
@@ -361,20 +385,30 @@ h6 {
   background-size: cover;
   flex: 1;
   position: relative;
+  overflow: hidden;
 }
 
 #leak3 {
   position: absolute;
   mix-blend-mode: screen;
   width: 100%;
+  transform-origin: right;
 }
 
 .running_line_about {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  width: 100%;
   background-color: #fff429;
   height: 3.6vw;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.about-slide {
+  padding-right: 1vw;
+  padding-top: 0.57vw;
 }
 
 h4 {
@@ -382,24 +416,37 @@ h4 {
   font-weight: 300;
   font-style: italic;
   font-size: 2.5vw;
+  padding-right: 20px;
 }
 
 .running_lines-digital_reality {
-  height: 38.5vw;
   overflow: hidden;
+  height: 38.5vw;
+  white-space: nowrap;
+  position: relative;
 }
 
-#digital_reality {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+.digital-reality-slide1 img {
+  height: 12vw;
+}
+
+.digital-reality-slide2 img {
+  height: 6vw;
+  padding-top: 1.3vw;
+}
+
+.digital-reality-slide3 img {
+  padding-top: 1.3vw;
+  height: 18vw;
 }
 
 .running_lines-digital_reality .line1_wrap {
-  margin-top: -0.3%;
-  height: 35%;
+  white-space: nowrap;
+}
+
+.running_lines-digital_reality .line1_wrap img {
+  margin-top: -0.03%;
+  height: 60%;
 }
 
 .running_lines-digital_reality .line2_wrap {
@@ -442,6 +489,7 @@ h4 {
 #background_code {
   display: flex;
   flex-direction: row;
+  white-space: nowrap;
   position: absolute;
 }
 
@@ -458,70 +506,6 @@ h4 {
   white-space: nowrap;
 }
 
-#code_line1 {
-  margin-top: -250px;
-}
-
-#code_line2 {
-  margin-top: -600px;
-}
-
-#code_line3 {
-  margin-top: -100px;
-}
-
-#code_line4 {
-  margin-top: -350px;
-}
-
-#code_line5 {
-  margin-top: -450px;
-}
-
-#code_line6 {
-  margin-top: -350px;
-}
-
-#code_line7 {
-  margin-top: -350px;
-}
-
-#code_line8 {
-  margin-top: -250px;
-}
-
-#code_line9 {
-  margin-top: -500px;
-}
-
-#code_line10 {
-  margin-top: -350px;
-}
-
-#code_line11 {
-  margin-top: 0px;
-}
-
-#code_line12 {
-  margin-top: -700px;
-}
-
-#code_line13 {
-  margin-top: -900px;
-}
-
-#code_line14 {
-  margin-top: 0px;
-}
-
-#code_line15 {
-  margin-top: -450px;
-}
-
-#code_line16 {
-  margin-top: 0px;
-}
-
 .poster {
   background-image: url("../images/poster_background.webp");
   background-position: center center;
@@ -536,6 +520,7 @@ h4 {
   bottom: 3%;
   left: 5%;
   width: 90%;
+  transform-origin: bottom;
 }
 
 .poster h1 {
@@ -594,7 +579,7 @@ h4 {
 }
 
 .emotions {
-  background-image: url("../images/emotions.webp");
+  background-image: url("../images/emotions-static.gif");
   background-position: center center;
   background-size: cover;
   flex: 1;
@@ -608,6 +593,7 @@ h4 {
   right: 0;
   mix-blend-mode: screen;
   height: 100%;
+  transform-origin: right;
 }
 
 #emotions_text {
