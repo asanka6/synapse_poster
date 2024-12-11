@@ -1,2 +1,2 @@
-# synpase_web-poster
+# synpase web-poster
  
